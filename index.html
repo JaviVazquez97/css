@@ -7,14 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/github-alt-brands.svg" type="image/x-icon">
     <title>Git & GitHub</title>
+    <!-- Estilos internos-->
+    <style>
+        /*atodos los elementos párrafos */
+        /*se apliquen esos estilos*/
+        
+        #software {
+            color: #ff2525
+        }
+        
+        .idea-principal {
+            color: rgba(0, 0, 255, 1);
+            font-size: 30px;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 
-<body>
+<body style="margin: 0; padding: 20%; background-color: orange;">
     <b>¿Qué es Git?</b>
-    <p>Git es un software de control de versiones gratis y de código abierto. Fue creado por Linus Torvald en 2005. Esta herramienta es un sistema de control de versiones que fue inicialmente desarrollado para trabajar con varios desarrolladores en el núcleo
+    <!--Estilos en linea, agregamos estilos en linea con el atributo style-->>
+    <p id=software> Git es un software de control de versiones gratis y de código abierto. Fue creado por Linus Torvald en 2005. Esta herramienta es un sistema de control de versiones que fue inicialmente desarrollado para trabajar con varios desarrolladores en el núcleo
         de Linux.</p>
 
-    <p>Esto significa básicamente que Git es un rastreador de contenido, en particular para almacenar código</p>
+    <p class="idea-principal">Esto significa básicamente que Git es un rastreador de contenido, en particular para almacenar código</p>
 
     <P>Los proyectos de la vida real generalmente tienen múltiples desarrolladores trabajando en paralelo. Así que necesitan un sistema de control de versiones como Git para asegurarse de que no hay conlfictos de código entre ello.
 
@@ -24,11 +40,11 @@
 
         <p>Por ejemplo:</p>
 
-        <ul>
-            <li>una rama -> una tarea</li>
+        <ul style="background-color: rgba(0,255,0,.5)">
+            <li style="color: rgba(255,255,0,.5)">una rama -> una tarea</li>
         </ul>
-        <ul>
-            <li>una rama -> un desarrollador</li>
+        <ul style="background-color: rgba(0,255,0,.5)">
+            <li style="color: rgba(255,0,0,.5)">una rama -> un desarrollador</li>
         </ul>
         <p>Básicamente, se puede pensar en Git como una aplicación de software pequeña que controla tu código base, si eres un desarrollador.</p>
         <b>Lo esencial hasta ahora</b>
